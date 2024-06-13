@@ -1,7 +1,7 @@
 
 const jwt = require('jsonwebtoken');
 
-const secretKey = "AIzaSyC7P-q_O1ccqBuZFVMbISkailqey6YTuSA";  // Replace with your actual secret key
+const secretKey = "enter your secret key";
 
 function authenticateToken(req, res, next) {
     const authHeader = req.headers['authorization'];
